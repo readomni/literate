@@ -14,6 +14,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
+	metadataBase: new URL("https://literate.readomni.com"),
 	title: "LiTERatE - Literary Translation Evaluation and Rating Ensemble",
 	description:
 		"A benchmark for evaluating machine translation systems on literary text from Chinese, Japanese, and Korean languages using an ensemble of LLM judges.",
