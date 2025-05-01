@@ -7,9 +7,24 @@ export interface ModelData {
 
 export const leaderboardData: ModelData[] = [
 	{
+		model: "Omni Wu Max Experimental",
+		score: 94.7,
+		link: "https://readomni.com",
+	},
+	{
+		model: "Omni Wu Flash",
+		score: 90.6,
+		link: "https://readomni.com",
+	},
+	{
 		model: "Deepseek R1",
 		score: 87.3,
 		link: "https://huggingface.co/deepseek-ai/DeepSeek-R1",
+	},
+	{
+		model: "Omni Wu Mini",
+		score: 84.3,
+		link: "https://readomni.com",
 	},
 	{
 		model: "Omni Qi",
